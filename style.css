@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #001C47;
+    background-image: url(img/relogiofu.gif);
+    background-position: bottom;
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 45vh;
+    
+}
+
+h1{
+    font-size: 8rem;
+    margin: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #07a6f5;
+}
+
+.relogio{
+    color: #00000053;
+    font-size: 7rem;
+    position: absolute;
+    top: 15rem;
+    background-color: rgba(235, 235, 235, 0.064);
+    border-radius: 1rem;
+    font-weight: 700;
+    border-style: dashed;
+    border-color: #ffffff38;
+    padding: 5px;
+}
+
+img{
+    position: absolute;
+    top: 25rem;
+}
